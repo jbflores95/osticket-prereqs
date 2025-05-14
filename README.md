@@ -214,22 +214,93 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 
+![38](https://github.com/user-attachments/assets/b114074e-6770-47cb-a461-93b671f80195)![39](https://github.com/user-attachments/assets/bffc6f37-d660-4356-b84d-e575a3375830)
+![40](https://github.com/user-attachments/assets/120d9e0d-6245-43e7-9cef-09c64d8d2f7e)
+
+
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![41](https://github.com/user-attachments/assets/6c36b798-b79a-4ce7-954b-71c4582695f8)![42](https://github.com/user-attachments/assets/5abc17fe-cc27-445b-91ee-a86cfdc6d7b3)
+
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
+![43](https://github.com/user-attachments/assets/46f210f3-a307-4367-abd7-8bfa53d38e2d)
+![44](https://github.com/user-attachments/assets/e8280688-4bfc-445d-a097-2f43300f83ac)
+
+</p>
+<br />
+
+</p>
+<p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![45](https://github.com/user-attachments/assets/8fd2f343-604f-400a-a843-8d83aa40a34c)
+![46](https://github.com/user-attachments/assets/cdd9a72b-e3b0-4e50-893f-419a1f91fb49)
+![47](https://github.com/user-attachments/assets/c1c5a5c3-3d8a-4488-b2ee-9338d5d80784)
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+![48](https://github.com/user-attachments/assets/1ec000bf-64c6-4162-b0cd-4bcb84e80654)![49](https://github.com/user-attachments/assets/a7413099-f40e-4a17-982b-76e1b6b9f2b8)
+
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+![50](https://github.com/user-attachments/assets/96f1c774-07ac-4d43-b549-381f1dc34f2d)
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+![51](https://github.com/user-attachments/assets/52443f82-1839-4cd9-a54b-9d80e8d8e05a)![52](https://github.com/user-attachments/assets/59b40426-4637-4f41-8b45-c9a278f48af5)
+
+
+
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+![53](https://github.com/user-attachments/assets/819bb33b-9963-4da7-815b-653f31da6aa6)
+![54](https://github.com/user-attachments/assets/a8e3aec5-7c87-43c5-8a7e-3a65e0847937)
+
+
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+![55](https://github.com/user-attachments/assets/e677e861-c904-4d63-b7d0-387a4be022cf)![56](https://github.com/user-attachments/assets/400bb983-1116-4352-b3a3-8726d25b191b)
+
+
+
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+
+![57](https://github.com/user-attachments/assets/5cecc6f5-19d6-44e0-aea2-affe5319ffca)
+
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
