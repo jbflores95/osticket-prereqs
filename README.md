@@ -33,18 +33,21 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Before starting this project, we must create a VM in Azure. Using RDP( Remote Desktop Protocol) log in to the VM. ( will put link after I finish this project)
 </p>
+Next, we take the osTicket Installation Files and copy and paste them into the VM browser. Download and open the file.
 <br />
 
 <p>
 
+
 ![osticket2](https://github.com/user-attachments/assets/89c0becb-1b04-4f80-86e6-43dc1baf1d78)![3](https://github.com/user-attachments/assets/d7945e5d-3cd2-453b-bcfa-b44fef2e45f9)
 
-
+Next, we're going to click and drag this file to the Desktop. Don't open.
 </p>
+Once it's on your Desktop, right-click and click Extract All.
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
@@ -59,11 +62,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
   ![6](https://github.com/user-attachments/assets/1e2676e1-7354-461b-9b19-3b1606087a3b)
 
-  
+Make sure the folder you are extracting says "osTicket-Installation-Files", once confirmed, click Extract.
 
+Next, we are going to enable ISS with CGI. We start by going to the Start Menu, type in Control Panel and open that up. Cick Uninstall a program.
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+Then we click Turn Windows features on or off.
 </p>
 <br />
 
@@ -71,7 +75,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This opens up Windows Features, where we click on Internet Information Services, expand it by clicking the white box with the  + sign. Next, expand World Wide Web services, then Application Development Features.
+
+</p>
+Make sure you click on CGI, then click Ok. Hit close after it installs.
 </p>
 <br />
 
@@ -82,7 +89,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Head back to the osTicket Installation files and open up PHP Manager for ISS_V1.5.0. Just hit Next and Yes for anything that comes up, and then click close when it installs.
+</p>
+Just like we did with PHP Manager, install (rewrite_amd64_en-US) and click yes and next to everything, then click finish.
 </p>
 <br />
 
@@ -92,10 +101,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, we create a directory on the Windows C Drive called PHP. To do this, just right-click anywhere on the white space, scroll down to New > Folder. Then, name it PHP.
+
+</p>
+Heading back to osTicket Installation Files, right click  (php-7.3.8-nts-Win32-VC15-x86) and click Extract all. Hit Browse, then navigate to the C drive and click on PHP, then hit Extract.
+
+</p>
+Next, we install VC_redist.x86.exe. Hit install, then hit yes if anything pops up. Then hit close.
 </p>
 <br />
-
 
 ![14](https://github.com/user-attachments/assets/29e1766a-ba70-4e07-9577-05b86ae61171)
 
@@ -105,7 +119,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After we get Redist installed, we install MySQL-5.5.62-win32, which is a database where all our data is going to be collected on osTicket. Just like the others, hit yes and next to everything. Make sure you click on Typical, then Install.
+</p>
+Launch and hit Finish. Hit Next, then make sure Standard Configuration is checked, then hit Next until u get to the User and Password. !!!There, we type in ROOT for the user and Capital ROOT for the password. Don't mess this part up!!! Hit Next, Execute, and then finish.
 </p>
 <br />
 
@@ -113,17 +129,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We're getting there, I swear, bear with me. Now we open up ISS as an Admin by going to the Start menu and typing is, right click ISS and click run as administrator. We're going to register PHP from within ISS, which means we're making the web server aware of the existence of PGP on the computer. 
+</p> 
+Now double click PHP manager
 </p>
 <br />
 
 ![18](https://github.com/user-attachments/assets/4cac81f2-b7a8-4e96-8a41-70da9ecee050)
 ![20](https://github.com/user-attachments/assets/fac7eb4a-8a78-4c84-9248-b865f46c8ccc)
 
-
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now click on "Register New PHP version", click on the dots and navigate to the C drive and click on PHP.
+
+</p>
+Select php-cgi and click Open, then hit Ok.
 </p>
 <br />
 
@@ -133,14 +153,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now we need to reload ISS to restart the web server. To do this right right-click osTicket-vm and then select Stop.
 </p>
+Wait a few seconds, then right-click osTicket-vm again, then select Start.
 <br />
-
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
 </p>
 <br />
 
@@ -149,7 +169,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Head back to the osTicket Installation Files, right-click osTicket-v1.15.8zip, then click on Extract all. Hit Extact again when the pop up appears and wait for it to complete.
+</p>
+Now you see  it made another folder at the top.
 </p>
 <br />
 
@@ -159,10 +181,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
+You can now see the new folder after it completes. We will come back to this.
+</p>
+We navigate back to the C Drive and we open inetpub. Then we open up the wwwroot folder.
+<br />
 
 </p>
 
@@ -170,26 +193,33 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ![29](https://github.com/user-attachments/assets/0fedd5a1-6d77-4436-91c1-2b4e53aae65f)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now, drag the upload folder from osTicket-v1.15.8; it should be next to scripts, but I already did this. You can see that the upload folder is in the wwwroot folder.
 </p>
+Rename the upload folder to osTicket, make sure it's spelled exactly how I typed it here, it will mess up things later on if you don't.
+
+</p>
+We need to reload ISS again like we did before. Refer back up above if you have forgotten how to do so.
 <br />
+</p>
 
 ![30](https://github.com/user-attachments/assets/cd3299af-0200-4033-9b6f-35ee801ed331)
 ![31](https://github.com/user-attachments/assets/280a67ea-453d-4f22-afcd-0b9a894d0984)
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In ISS expand osticket-vm, then Sites > Default Sites, click on osTicket. On the right-hand side, click on Browse*:80(HTTP)
 </p>
-<br />
 
+Now if you got this on your screen "OsTicket Installer", " Thank you got choosing osTicket", you are on the right track!
+</p>
+Were almost there, you can see were missing some extensions. Time to get down and dirty and fix these problems. 
 </p>
 
 ![32](https://github.com/user-attachments/assets/1ef6ac25-6531-4d6e-bd8f-c76256bec2e7)
 ![33](https://github.com/user-attachments/assets/4ad1fb0a-fcf6-4e5e-b3a5-7cff45fe2ecf)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go back to ISS, in ISS go to  sites -> Default -> osTicket then double PHP manager. Click “Enable or disable an extension.”
 </p>
 <br />
 
@@ -198,7 +228,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now we're going to enable some extensions by right-clicking each of them. Enable php_imap.dll, then php_intl.dll, and lastly php_opcache.dll
 </p>
 <br />
 
@@ -206,7 +236,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Head back to the osInstaller and hit refresh on the website, you should now see some checkmarks for more extensions. Two more to go. Lets do this!
 </p>
 <br />
 
@@ -215,8 +245,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ![40](https://github.com/user-attachments/assets/120d9e0d-6245-43e7-9cef-09c64d8d2f7e)
 
 
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+Head back to Windows C Drive, go to inetpub, then wwwroot. Now click on osTicket then include and scroll down to ost-sampleconfig.php.
+</p>
+Right click ost-sampleconfig.php and click on rename, rename it to ost-config.php.
 </p>
 <br />
 
@@ -225,19 +257,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Right-click ost-config.php and  click Properties.
+</p>
+Navigate to Security and click Advanced.
+
+</p>
+Click Disable inheritance.
 </p>
 <br />
 
 ![43](https://github.com/user-attachments/assets/46f210f3-a307-4367-abd7-8bfa53d38e2d)
 ![44](https://github.com/user-attachments/assets/e8280688-4bfc-445d-a097-2f43300f83ac)
-
 </p>
-<br />
-
+Click on Remove all inherited premissions from this object,
 </p>
+Click Add.
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  
 </p>
 <br />
 
@@ -246,7 +282,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ![47](https://github.com/user-attachments/assets/c1c5a5c3-3d8a-4488-b2ee-9338d5d80784)
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now, click on Select a principal and type in everyone. Click on Domain names so that  everyone has access. You should not do this in a real work environment because of security issues but its fine for this lab.
+</p>
+Then click on Full Control and hit ok.
 </p>
 <br />
 
@@ -254,25 +292,35 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Make sure it says ost-config.php on top, and make sure all the info is correct as well. Click Apply and then Ok.
+</p>
+Click Ok for the next one too.
 </p>
 <br />
 
 ![50](https://github.com/user-attachments/assets/96f1c774-07ac-4d43-b549-381f1dc34f2d)
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Back to the osInstaller on your browser, click Continue. Here we don't need any specific name or default Email, I just used my name.
 </p>
+Under Admin user, you can enter your first and last name, just make sure the email here is different from the one above.
+</p>
+For Username, you can put "adminuser", Password: "Password1", don't forget this. You can write it down.
 <br />
+</p>
 
 ![51](https://github.com/user-attachments/assets/52443f82-1839-4cd9-a54b-9d80e8d8e05a)![52](https://github.com/user-attachments/assets/59b40426-4637-4f41-8b45-c9a278f48af5)
 
 
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The finish line is here. Go back into osTicket-Installation-Files and install HeidiSQL. HeidiSQL is just an application that allows us to make a connection to our database and lets us configure it. Just like the other ones, just hit Next and hit install. Finish and hit skip to launch HeidiSQL
 </p>
+In HeidiSQL, we are going to make a connection to our database and then set up a database for osTicket to use. With that in mind, click on New.
+</p>
+SUPER IMPORTANT HERE! The user will be lowercase root, and the password is ROOT in uppercase. Don't mess this part up. CLick Open
 <br />
+</p>
 
 ![53](https://github.com/user-attachments/assets/819bb33b-9963-4da7-815b-653f31da6aa6)
 ![54](https://github.com/user-attachments/assets/a8e3aec5-7c87-43c5-8a7e-3a65e0847937)
@@ -280,26 +328,41 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This opened a connection to our database. Now, right-click Unnamed, scroll down to Create new, and click on Database.
+</p>
+Name this "osTicket", just like the password, make sure it's exactly how I spelled it. You can now click Ok.
 </p>
 <br />
 
 ![55](https://github.com/user-attachments/assets/e677e861-c904-4d63-b7d0-387a4be022cf)![56](https://github.com/user-attachments/assets/400bb983-1116-4352-b3a3-8726d25b191b)
 
-
-
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Back to the osInstaller in your browser, scroll down to Database Settings and insert the Database, Username, and Password.
 </p>
+MYSQL Database: osTicket
+</p>
+MySQL Username: root
+</p>
+MySQL Password: ROOT
+</p>
+After you insert those in just click Install Now.
+</p>
+Bravo! Your next screen should say Congratulations. osTicket has now been installed. That took a hot minute, huh? Pat yourself on the back if this only took you one try; you deserve it.
 <br />
-
-
+</p>
 
 ![57](https://github.com/user-attachments/assets/5cecc6f5-19d6-44e0-aea2-affe5319ffca)
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Now you can log into osTicket help desk. This is what your screen should look like if we click on this link. You can copy and paste this into your browser. 
+</p>
+http://localhost/osTicket/scp/login.php
 </p>
 <br />
+
+
+<h3>Final Thoughts</h3>
+
+You and I have successfully installed osTicket. This was a blast, dont you think? From configuring the environment to troubleshooting common setup issues, the process deepened my skills in server setup, database integration, and web applications. This project challenged me to apply both technical knowledge and problem-solving skills. Knowing how to deploy and configure tools like osTicket is directly applicable to real-world IT roles. I could easily see this being useful in a help desk environment or small business support team.
