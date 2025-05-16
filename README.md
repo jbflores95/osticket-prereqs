@@ -20,7 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Creating a Virtual Machine from Scratch
+- [Creating a Virtual Machine from Scratch](https://github.com/jbflores95/Virtual-machine)
 
 
 <h2>Installation Steps</h2>
