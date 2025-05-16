@@ -20,11 +20,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- 
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Creating a Virtual Machine from Scratch
+
 
 <h2>Installation Steps</h2>
 
@@ -34,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Before starting this project, we must create a VM in Azure. Using RDP( Remote Desktop Protocol) log in to the VM. ( will put link after I finish this project)
+Before starting this project, we must create a VM in Azure. Using RDP( Remote Desktop Protocol) log in to the VM. Link under List of Prerequisites.
 </p>
 Next, we take the osTicket Installation Files and copy and paste them into the VM browser. Download and open the file.
 <br />
