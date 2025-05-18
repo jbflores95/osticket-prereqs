@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system, osTicket.<br />
 
 
 
@@ -31,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Before starting this project, we must create a VM in Azure. Using RDP( Remote Desktop Protocol) log in to the VM. Link under List of Prerequisites.
+Before starting this project, we must create a VM in Azure. Log in to the VM using RDP( Remote Desktop Protocol). The link is under the List of Prerequisites.
 </p>
 Next, we take the osTicket Installation Files and copy and paste them into the VM browser. Download and open the file.
 <br />
