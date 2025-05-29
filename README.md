@@ -49,7 +49,7 @@ Once it's on your Desktop, right-click and click Extract All.
 </p>
 <br />
 
-![4](https://github.com/user-attachments/assets/d342670d-9046-41a7-9b69-44fefa70a5a7) < IMAGE 4
+![4](https://github.com/user-attachments/assets/d342670d-9046-41a7-9b69-44fefa70a5a7)
 
 <p>
 
