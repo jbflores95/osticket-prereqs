@@ -62,7 +62,7 @@ Once it's on your Desktop, right-click and click Extract All.
 
 Make sure the folder you are extracting says "osTicket-Installation-Files", once confirmed, click Extract.
 
-Next, we are going to enable ISS with CGI. We start by going to the Start Menu, type in Control Panel and open that up. Cick Uninstall a program.
+Next, we are going to enable ISS with CGI. We start by going to the Start Menu, typing in Control Panel, and open that up. Click Uninstall a program.
 
 </p>
 Then we click Turn Windows features on or off.
@@ -129,7 +129,7 @@ Launch and hit Finish. Hit Next, then make sure Standard Configuration is checke
 <p>
 We're getting there, I swear, bear with me. Now we open up ISS as an Admin by going to the Start menu and typing is, right click ISS and click run as administrator. We're going to register PHP from within ISS, which means we're making the web server aware of the existence of PGP on the computer. 
 </p> 
-Now double click PHP manager
+Now, double-click PHP manager
 </p>
 <br />
 
@@ -138,7 +138,7 @@ Now double click PHP manager
 
 </p>
 <p>
-Now click on "Register New PHP version", click on the dots and navigate to the C drive and click on PHP.
+Now, click on "Register New PHP version", click on the dots, and navigate to the C drive, and click on PHP.
 
 </p>
 Select php-cgi and click Open, then hit Ok.
@@ -193,7 +193,7 @@ We navigate back to the C Drive and we open inetpub. Then we open up the wwwroot
 <p>
 Now, drag the upload folder from osTicket-v1.15.8; it should be next to scripts, but I already did this. You can see that the upload folder is in the wwwroot folder.
 </p>
-Rename the upload folder to osTicket, make sure it's spelled exactly how I typed it here, it will mess up things later on if you don't.
+Rename the upload folder to osTicket, make sure it's spelled exactly how I typed it here; it will mess up things later on if you don't.
 
 </p>
 We need to reload ISS again like we did before. Refer back up above if you have forgotten how to do so.
@@ -208,7 +208,7 @@ We need to reload ISS again like we did before. Refer back up above if you have 
 In ISS expand osticket-vm, then Sites > Default Sites, click on osTicket. On the right-hand side, click on Browse*:80(HTTP)
 </p>
 
-Now if you got this on your screen "OsTicket Installer", " Thank you got choosing osTicket", you are on the right track!
+Now, if you got this on your screen, "OsTicket Installer", " Thank you for choosing osTicket", you are on the right track!
 </p>
 Were almost there, you can see were missing some extensions. Time to get down and dirty and fix these problems. 
 </p>
@@ -234,7 +234,7 @@ Now we're going to enable some extensions by right-clicking each of them. Enable
 
 </p>
 <p>
-Head back to the osInstaller and hit refresh on the website, you should now see some checkmarks for more extensions. Two more to go. Lets do this!
+Head back to the osInstaller and hit refresh on the website; you should now see some checkmarks for more extensions. Two more to go. Let's do this!
 </p>
 <br />
 
@@ -267,7 +267,7 @@ Click Disable inheritance.
 ![43](https://github.com/user-attachments/assets/46f210f3-a307-4367-abd7-8bfa53d38e2d)
 ![44](https://github.com/user-attachments/assets/e8280688-4bfc-445d-a097-2f43300f83ac)
 </p>
-Click on Remove all inherited premissions from this object,
+Click on Remove all inherited permissions from this object.
 </p>
 Click Add.
 <p>
@@ -280,7 +280,7 @@ Click Add.
 ![47](https://github.com/user-attachments/assets/c1c5a5c3-3d8a-4488-b2ee-9338d5d80784)
 
 
-Now, click on Select a principal and type in everyone. Click on Domain names so that  everyone has access. You should not do this in a real work environment because of security issues but its fine for this lab.
+Now, click on Select a principal and type in everyone. Click on Domain names so that  everyone has access. You should not do this in a real work environment because of security issues, but its fine for this lab.
 </p>
 Then click on Full Control and hit ok.
 </p>
@@ -292,7 +292,7 @@ Then click on Full Control and hit ok.
 <p>
 Make sure it says ost-config.php on top, and make sure all the info is correct as well. Click Apply and then Ok.
 </p>
-Click Ok for the next one too.
+Click Ok for the next one, too.
 </p>
 <br />
 
@@ -312,7 +312,7 @@ For Username, you can put "adminuser", Password: "Password1", don't forget this.
 
 
 <p>
-The finish line is here. Go back into osTicket-Installation-Files and install HeidiSQL. HeidiSQL is just an application that allows us to make a connection to our database and lets us configure it. Just like the other ones, just hit Next and hit install. Finish and hit skip to launch HeidiSQL
+The finish line is here. Go back into the osTicket-Installation-Files and install HeidiSQL. HeidiSQL is just an application that allows us to make a connection to our database and lets us configure it. Just like the other ones, just hit Next and hit install. Finish and hit skip to launch HeidiSQL
 </p>
 In HeidiSQL, we are going to make a connection to our database and then set up a database for osTicket to use. With that in mind, click on New.
 </p>
@@ -336,7 +336,7 @@ Name this "osTicket", just like the password, make sure it's exactly how I spell
 
 </p>
 <p>
-Back to the osInstaller in your browser, scroll down to Database Settings and insert the Database, Username, and Password.
+Back to the osInstaller in your browser, scroll down to Database Settings, and insert the Database, Username, and Password.
 </p>
 MYSQL Database: osTicket
 </p>
@@ -354,13 +354,13 @@ Bravo! Your next screen should say Congratulations. osTicket has now been instal
 
 </p>
 <p>
-Now you can log into osTicket help desk. This is what your screen should look like if we click on this link. You can copy and paste this into your browser. 
+Now you can log intothe  osTicket help desk. This is what your screen should look like if we click on this link. You can copy and paste this into your browser. 
 </p>
 http://localhost/osTicket/scp/login.php
 </p>
 <br />
 
 
-<h3>Final Thoughts</h3>
+<h2>Final Thoughts</h2>
 
-You and I have successfully installed osTicket. This was a blast, dont you think? From configuring the environment to troubleshooting common setup issues, the process deepened my skills in server setup, database integration, and web applications. This project challenged me to apply both technical knowledge and problem-solving skills. Knowing how to deploy and configure tools like osTicket is directly applicable to real-world IT roles. I could easily see this being useful in a help desk environment or small business support team.
+You and I have successfully installed osTicket. This was a blast, don't you think? From configuring the environment to troubleshooting common setup issues, the process deepened my skills in server setup, database integration, and web applications. This project challenged me to apply both technical knowledge and problem-solving skills. Knowing how to deploy and configure tools like osTicket is directly applicable to real-world IT roles. I could easily see this being useful in a help desk environment or a small business support team.
