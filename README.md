@@ -354,7 +354,7 @@ Bravo! Your next screen should say Congratulations. osTicket has now been instal
 
 </p>
 <p>
-Now you can log intothe  osTicket help desk. This is what your screen should look like if we click on this link. You can copy and paste this into your browser. 
+Now you can log into the osTicket help desk. This is what your screen should look like if we click on this link. You can copy and paste this into your browser. 
 </p>
 http://localhost/osTicket/scp/login.php
 </p>
